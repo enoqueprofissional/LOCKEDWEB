@@ -845,7 +845,7 @@ rm -rf /etc/mysql /var/lib/mysql
 rm -rf /var/www/html
 apt-get autoremove
 apt-get autoclean
-sed -i "s;Listen 80;Listen 81;g" /etc/apache2/ports.conf
+sed -i "s;Listen 81;Listen 81;g" /etc/apache2/ports.conf
 service apache2 restart > /dev/null 2>&1
 service apache2 stop
 [[ ! -d /var/www ]] && mkdir /var/www
@@ -1081,7 +1081,7 @@ echo -e "\033[1;1;37m┃   \033[1;37m[\033[1;31m!\033[1;37m]       \033[1;37mINS
 } || {
 echo -e "\033[1;1;37m┃   \033[5;37m[\033[1;31m!\033[1;37m]     \033[1;37mATUALIZAÇÃO \033[1;32mVERSÃO: $verap \033[1;37mPARA O PWEB          \033[1;37m[\033[1;31m!\033[1;37m]\033[0m   \033[1;1;37m┃"
 }
-echo -e "\033[1;1;37m┃   \033[1;37m[\033[1;31m!\033[1;37m]       \033[1;37mINSTALADA \033[1;32mVERSÃO: $verw \033[1;37mDO PAINELWEB          \033[1;37m[\033[1;31m!\033[1;37m]\033[0m   \033[1;1;37m┃"
+echo -e "\033[1;1;37m┃   \033[1;37m[\033[1;31m!\033[1;37m]       \033[1;37mINSTALADA \033[1;32mVERSÃO: $verw \033[1;37mDO PAINELWEB         \033[1;37m[\033[1;31m!\033[1;37m]\033[0m   \033[1;1;37m┃"
 [[ "$verw" = "$veraw" ]]  && {
     sleep 0.2
 } || {
