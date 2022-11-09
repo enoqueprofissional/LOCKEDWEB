@@ -332,7 +332,7 @@ dpkg-reconfigure --frontend noninteractive tzdata > /dev/null 2>&1
 clear
 echo -e "\E[44;1;37m    INSTALANDO PAINEL    \E[0m"
 echo ""
-echo -e "WEB SWIT SSH" | figlet | boxes -d stone -p a0v0 | lolcat
+echo -e "PAINEL" | figlet | boxes -d stone -p a0v0 | lolcat
 echo -e "                              \033[1;31mBy @LOCKED_SSH\033[1;36m" | lolcat
 echo ""
 chave=$(curl -sSL "https://github.com/Lockednet/LOCKEDWEB/raw/main/install/chave") &>/dev/null
@@ -402,13 +402,13 @@ echo -e "                              \033[1;31mBy @LOCKED_SSH\033[1;36m" | lol
 echo ""
 echo -e "\033[1;32mPAINEL INSTALADO COM SUCESSO!" | lolcat
 echo ""
-echo -e "\033[1;36m SEU PAINEL:\033[1;37m http://$IP/admin\033[0m"
+echo -e "\033[1;36m SEU PAINEL:\033[1;37m http://$IP:81/admin\033[0m"
 echo -e "\033[1;36m USUÁRIO:\033[1;37m admin\033[0m"
 echo -e "\033[1;36m SENHA:\033[1;37m admin\033[0m"
 echo ""
-echo -e "\033[1;36m LOJA DE APPS:\033[1;37m http://$IP/apps\033[0m"
+echo -e "\033[1;36m LOJA DE APPS:\033[1;37m http://$IP:81/apps\033[0m"
 echo ""
-echo -e "\033[1;36m PHPMYADMIN:\033[1;37m http://$IP/phpmyadmin\033[0m"
+echo -e "\033[1;36m PHPMYADMIN:\033[1;37m http://$IP:81/phpmyadmin\033[0m"
 echo -e "\033[1;36m USUÁRIO:\033[1;37m root\033[0m"
 echo -e "\033[1;36m SENHA:\033[1;37m $pwdroot\033[0m"
 echo ""
