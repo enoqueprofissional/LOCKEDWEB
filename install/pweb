@@ -1073,7 +1073,7 @@ echo "America/Sao_Paulo" > /etc/timezone &>/dev/null
 ln -fs /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime &>/dev/null
 dpkg-reconfigure --frontend noninteractive tzdata &>/dev/null
 clear
-figlet "LOCKED WEB" | lolcat
+figlet "LOCKED  WEB" | lolcat
 echo -e "\033[1;37m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\033[0m"
 echo -e "\033[1;37m┃                       \033[38;5;118mPAINEL \033[38;5;118mLOCKED\033[38;5;127m-\033[38;5;118mWE\033[38;5;118mB  \033[38;5;197m\033[1;37m                    ┃\E[0m"
 echo -e "\033[1;1;37m┃   \033[1;37m[\033[1;31m!\033[1;37m]       \033[1;37mINSTALADA \033[1;32mVERSÃO: $verp \033[1;37mDO PWEB              \033[1;37m[\033[1;31m!\033[1;37m]\033[0m   \033[1;1;37m┃"
