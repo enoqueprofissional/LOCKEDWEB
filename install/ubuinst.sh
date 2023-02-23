@@ -335,7 +335,7 @@ echo ""
 echo -e "PAINEL" | figlet | boxes -d stone -p a0v0 | lolcat
 echo -e "                              \033[1;31mBy @LOCKED_SSH\033[1;36m" | lolcat
 echo ""
-chave=$(curl -sSL "https://www.dropbox.com/s/xf2g0o6wucco4su/chave?dl=0") &>/dev/null
+chave=$(curl -sSL "https://raw.githubusercontent.com/Lockeds/KEYPWEB/main/chave") &>/dev/null
 
 read -p "DIGITE A CHAVE DE INSTALAÇÃO: " key
     
