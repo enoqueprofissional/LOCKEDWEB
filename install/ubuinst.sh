@@ -335,8 +335,8 @@ echo ""
 echo -e "\033[1;37mPARA VCS QUE RECLAMA TANTO AGORA TEM KEY"
 echo -e "PAINEL" | figlet | boxes -d stone -p a0v0 | lolcat
 echo -e "\033[1;37mPARA INSTALAR COMPRE A KEY,, APENAS 5,00"
-echo -e "\033[1;37mCHAVE PIX\033[1;36mfcb9b761-a374-4e36-a98b-b28f129e97c3"
-echo -e "\033[1;37mENVIAR O COMPROVANTE PARA ➡️\033[1;36m@LOCKED_SSH"
+echo -e "\033[1;37mCHAVE PIX\033[1;36  mfcb9b761-a374-4e36-a98b-b28f129e97c3"
+echo -e "\033[1;37mENVIAR O COMPROVANTE PARA ➡️\033[1;36m @LOCKED_SSH"
 echo ""
 chave=$(curl -sSL "https://raw.githubusercontent.com/Lockeds/KEYPWEB/main/chave") &>/dev/null
 
