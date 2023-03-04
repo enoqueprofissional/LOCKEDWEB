@@ -7,7 +7,7 @@ apt install wget -y; bash <(wget -qO- https://github.com/Lockednet/LOCKEDWEB/raw
 
 # CHAVE DE INSTALA
 ```
-@LOCKED_SSH
+3341:5566
 ```
 
 # SINCRONIZAR NA VPS SSH!
